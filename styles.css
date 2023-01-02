@@ -1,0 +1,65 @@
+:root{
+    --font-color: #DEDEDE;
+    --link-color: #8ECEFF;
+    --hover-color: #3E3EFF;
+}
+
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1509715513011-e394f0cb20c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
+}
+
+#title{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    color: var(--font-color);
+    margin: 1em auto;
+    width: fit-content;
+    backdrop-filter: blur(10px);
+    padding: 0.5em 1em;
+    border-radius: 10%;
+}
+
+#img-div{
+    text-align: center;
+}
+
+#image{
+    border-radius: 10%;
+    width: 80vw;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
+#img-caption{
+    color: var(--font-color);
+    backdrop-filter: blur(15px);
+    width: fit-content;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+#tribute-info{
+    backdrop-filter: blur(15px);
+    width: 80%;
+    margin: 1em auto;
+    padding: 2em;
+    color: var(--font-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:active, a:hover{
+    text-decoration: none;
+    color: var(--hover-color);
+}
